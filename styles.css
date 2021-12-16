@@ -1,0 +1,75 @@
+.circle{
+    position: relative;
+  
+    box-sizing: border-box;
+ 
+    border-radius: 50%;
+
+    outline:2px solid red;
+    
+    box-shadow:0px 0px 0px 2px red inset;    
+}
+
+.one{
+    width: 300px;
+    height: 300px;
+    border: 40px solid rgb(3, 63, 122);
+    
+    
+}
+
+.two{
+    margin-top: -200px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    border: 25px solid rgb(4, 82, 128);
+}
+
+#diagram_1{
+    margin: 80px 80px 0 0;
+    border: 50px;
+    /* to create a space between the to diagrams */
+}
+
+/* .weird{
+    margin-top: 50px;
+    display: inline-block;
+
+    width: 0;
+	height: 0;
+    border-top: 0px solid transparent;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(245, 122, 7);
+    border-radius: 0 0 30% 30%;
+    
+    
+} */
+
+.weird{
+    margin: 50px 50px 50px 0;
+    display: inline-block;
+    
+    width: 0;
+    height: 0;
+    border: 50px solid #1e7703;
+    border-radius: 0 50% 80% 50%;
+}
+
+
+.ii{
+    transform :rotateZ(90deg);
+    margin-left: -55px;
+}
+.iii{
+    transform: rotateZ(-90deg) translateX(-100px);
+    /*note here lready rotated hence Y of screen equals X wrt div element!*/
+    margin-left: -255px;   
+}
+.iv{
+    transform :rotateZ(-180deg) translateY(-100px);
+    margin-left: -55px;
+}
+
+
